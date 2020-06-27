@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="calc.js"> </script>
+     <div class="main">
+         <div>
+             <input id="result" type="text" class="scr">
+         </div>
+         <div>
+            <button class="clearbtn" onclick="clrBtn()">C</button>
+            <button id class="btn" onclick="getnum('(')">(</button>
+            <button class="btn" onclick="getnum(')')">)</button>
+            <button class="btn" onclick="getnum('/')">/</button>
+         </div>
+         <div>
+         
+         <button id class="btn" onclick="getnum('7')">7</button>
+         <button class="btn" onclick="getnum('8')">8</button>
+         <button class="btn" onclick="getnum('9')">9</button>
+         <button class="btn" onclick="getnum('*')">x</button>
+        </div>
+        <div>
+            
+            <button class="btn" onclick="getnum('4')">4</button>
+            <button class="btn" onclick="getnum('5')">5</button>
+            <button class="btn" onclick="getnum('6')">6</button>
+            <button class="btn" onclick="getnum('-')">-</button>
+           </div>
+           <div>
+            
+            <button class="btn" onclick="getnum('1')">1</button>
+            <button class="btn" onclick="getnum('2')">2</button>
+            <button class="btn" onclick="getnum('3')">3</button>
+            <button class="btn" onclick="getnum('+')">+</button>
+           </div>
+     <div>
+        <button class="btn" onclick="getnum('%')">%</sup>
+        </button>
+        <button class="btn" onclick="getnum('0')">0</button>
+        <button class="btn" onclick="getnum('.')">.</button>
+        <button class="btn" id="col" onclick=" getresult()">=</button>
+        
+     </div>
+     </div>
+</body>
+</html>

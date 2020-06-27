@@ -1,0 +1,25 @@
+.main{
+    border: 2px solid greenyellow;
+    width: 30%;
+    margin: 0 auto;
+}
+.scr{
+    width: 99%;
+    border: 1px solid black;
+    background-color: gainsboro;
+    height: 50px;
+    
+}
+.clearbtn{
+    margin-top: 2px;
+    background-color: rgba(253, 253, 16, 0.315);
+    margin: 1%;
+    width: 22%;
+    height: 50px;
+}
+.btn{
+    background-color: rgba(253, 253, 16, 0.315);
+    margin: 1%;
+    width: 22%;
+    height: 50px;
+}
